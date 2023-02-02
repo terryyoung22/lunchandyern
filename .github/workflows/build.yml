@@ -28,8 +28,8 @@ jobs:
     # ---docker build ---
     - name: Build the hello-docker Docker image
       run: |
-        docker build -t ghcr.io/lunchnlearn:latest .
-        docker push ghcr.io/lunchnlearn:latest
+        docker build -t ghcr.io/terryyoung22/lunchnlearn:latest .
+        docker push ghcr.io/terryyoung22/lunchnlearn:latest
 
 
 
