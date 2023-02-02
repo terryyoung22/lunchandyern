@@ -28,7 +28,7 @@ jobs:
     # ---docker build ---
     - name: Build the hello-docker Docker image
       run: |
-        docker build $GITHUB_WORKSPACE --tag ghcr.io/lunchnlearn:latest .
+        docker build -t ghcr.io/lunchnlearn:latest .
         docker push ghcr.io/lunchnlearn:latest
 
 
